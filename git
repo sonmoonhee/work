@@ -1,0 +1,115 @@
+[master (root-commit) ba0ebf7] work commit
+ 113 files changed, 2376 insertions(+)
+ create mode 100644 pot/baskin/css/common.css
+ create mode 100644 pot/baskin/css/ice.css
+ create mode 100644 pot/baskin/css/main.css
+ create mode 100644 pot/baskin/font/PretendardGOV-Black.woff
+ create mode 100644 pot/baskin/font/PretendardGOV-Bold.woff
+ create mode 100644 pot/baskin/font/PretendardGOV-Regular.woff
+ create mode 100644 pot/baskin/ice.html
+ create mode 100644 pot/baskin/images/Chocolate and hazelnut.png
+ create mode 100644 pot/baskin/images/Dragon Ball Cake.png
+ create mode 100644 pot/baskin/images/Godiva Dark Crunch.png
+ create mode 100644 pot/baskin/images/Godiva Vanilla Chocolate Caramel.png
+ create mode 100644 pot/baskin/images/GodivaDark Crunchcon.jpg.png
+ create mode 100644 pot/baskin/images/Happy Mapship.png
+ create mode 100644 pot/baskin/images/Iceddouble cheesecake.png
+ create mode 100644 pot/baskin/images/KT-Membership.jpg
+ create mode 100644 pot/baskin/images/KT-Membership.jpg.png
+ create mode 100644 pot/baskin/images/Mint chocolate chip.png
+ create mode 100644 pot/baskin/images/Pinkberry Heart Chipping.png
+ create mode 100644 pot/baskin/images/Rainbow sherbet.png
+ create mode 100644 pot/baskin/images/T-Membership.jpg
+ create mode 100644 pot/baskin/images/T-Membership.jpg.png
+ create mode 100644 pot/baskin/images/Yellow cheese ball con.jpg
+ create mode 100644 pot/baskin/images/Yellow cheese ball.png
+ create mode 100644 pot/baskin/images/Yellowcheeseball con.jpg.png
+ create mode 100644 pot/baskin/images/almond stick.png
+ create mode 100644 pot/baskin/images/almondstick con.jpg.png
+ create mode 100644 pot/baskin/images/apple.jpg
+ create mode 100644 pot/baskin/images/apple.jpg.png
+ create mode 100644 pot/baskin/images/btn_facebook.png
+ create mode 100644 pot/baskin/images/btn_instagram.png
+ create mode 100644 pot/baskin/images/btn_search_white.png
+ create mode 100644 pot/baskin/images/btn_user_menu_white.png
+ create mode 100644 pot/baskin/images/btn_youtube.png
+ create mode 100644 pot/baskin/images/h_logo.png
+ create mode 100644 pot/baskin/images/h_logo_white.png
+ create mode 100644 pot/baskin/images/happy point.png
+ create mode 100644 pot/baskin/images/header.jpg
+ create mode 100644 pot/baskin/images/icm_10.png
+ create mode 100644 pot/baskin/images/icm_11.png
+ create mode 100644 pot/baskin/images/icm_12.png
+ create mode 100644 pot/baskin/images/icm_2.png
+ create mode 100644 pot/baskin/images/icm_3.png
+ create mode 100644 pot/baskin/images/icm_4.png
+ create mode 100644 pot/baskin/images/icm_5.png
+ create mode 100644 pot/baskin/images/icm_6.png
+ create mode 100644 pot/baskin/images/icm_7.png
+ create mode 100644 pot/baskin/images/icm_8.png
+ create mode 100644 pot/baskin/images/icm_9.png
+ create mode 100644 pot/baskin/images/save.png
+ create mode 100644 pot/baskin/index.html
+ create mode 100644 pot/cad/css/style.css
+ create mode 100644 pot/cad/images/backgorund_1.png
+ create mode 100644 pot/cad/images/blogo.png
+ create mode 100644 pot/cad/images/card.png
+ create mode 100644 pot/cad/images/cover.jpg
+ create mode 100644 pot/cad/images/fon.png
+ create mode 100644 pot/cad/images/logo.png
+ create mode 100644 pot/cad/images/mobile1.png
+ create mode 100644 pot/cad/images/mobile2.png
+ create mode 100644 pot/cad/images/mobile3.png
+ create mode 100644 pot/cad/images/public.png
+ create mode 100644 pot/cad/index.html
+ create mode 100644 pot/css/style.css
+ create mode 100644 pot/font/Rosehot.ttf
+ create mode 100644 "pot/images/banner/NAVER \353\241\244\353\247\201\353\263\264\353\223\234.jpg"
+ create mode 100644 "pot/images/banner/NAVER \355\203\200\354\236\204\353\263\264\353\223\234.png"
+ create mode 100644 pot/images/banner/inst00.png
+ create mode 100644 pot/images/banner/inst01.png
+ create mode 100644 pot/images/banner/inst02.jpg
+ create mode 100644 pot/images/banner/inst03.png
+ create mode 100644 pot/images/banner/inst04.png
+ create mode 100644 pot/images/banner/instagram1.png
+ create mode 100644 pot/images/banner/inte01.jpg
+ create mode 100644 pot/images/banner/inte02.jpg
+ create mode 100644 pot/images/banner/myson.png
+ create mode 100644 pot/images/icon/debug.log
+ create mode 100644 pot/images/me/me.svg
+ create mode 100644 pot/images/mous/mous.svg
+ create mode 100644 pot/images/one/one01.svg
+ create mode 100644 pot/images/one/one02.svg
+ create mode 100644 pot/images/one/one03.svg
+ create mode 100644 pot/images/pc/debug.log
+ create mode 100644 pot/images/pc/img/MAIN.png
+ create mode 100644 pot/images/pc/img/Untitled-1.png
+ create mode 100644 pot/images/pc/img/Untitled-2.png
+ create mode 100644 pot/images/pc/img/jadu.png
+ create mode 100644 pot/images/pc/img/mobile.jpg
+ create mode 100644 pot/images/pc/img/pc.jpg
+ create mode 100644 pot/images/pc/img/tablet.jpg
+ create mode 100644 "pot/images/pc/img/\353\252\250\353\260\224\354\235\274.png"
+ create mode 100644 "pot/images/pc/img/\354\212\244\355\206\240\353\246\254.png"
+ create mode 100644 pot/images/pc/jadu.png
+ create mode 100644 pot/images/pc/kottd.png
+ create mode 100644 pot/images/pc/set_01.png
+ create mode 100644 pot/images/pc/set_02.png
+ create mode 100644 pot/images/pc/set_03.png
+ create mode 100644 pot/images/pc/uiux/hos_1.jpg
+ create mode 100644 pot/images/pc/uiux/hos_2.png
+ create mode 100644 pot/images/pc/uiux/hos_3.png
+ create mode 100644 pot/images/pc/uiux/hos_4.png
+ create mode 100644 pot/images/pc/uiux/hos_5.png
+ create mode 100644 "pot/images/pc/\352\270\260\355\233\204\353\217\231\355\226\211pc.png"
+ create mode 100644 pot/images/work/bask1.png
+ create mode 100644 pot/images/work/large.jpg
+ create mode 100644 pot/images/work/love2.png
+ create mode 100644 pot/images/work/moon2.png
+ create mode 100644 pot/images/work/nano2.png
+ create mode 100644 pot/images/work/soon1.jpg
+ create mode 100644 pot/images/work/soon_2.jpg
+ create mode 100644 pot/images/work/vita.png
+ create mode 100644 pot/images/work/young kid.jpg
+ create mode 100644 pot/index.html
+ create mode 100644 pot/js/script.js
