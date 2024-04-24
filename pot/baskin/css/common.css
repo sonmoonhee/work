@@ -1,0 +1,124 @@
+@charset "utf-8";
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+
+@font-face {
+    font-family: "Pretend";
+    src: url(../font/PretendardGOV-Bold.woff)
+         url(../font/PretendardGOV-Black.woff)
+        url(../font/PretendardGOV-Regular.woff);   
+}   
+
+
+
+*, *::before, *::after{box-sizing: border-box;}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, main, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+input{border: 0;}
+ol, ul{list-style: none;}
+table{border-collapse: collapse;
+	border-spacing: 0;}
+a{text-decoration: none; color: inherit;}
+img{max-width: 100%;}
+
+.blind{position: absolute; width:1px; height: 1px;
+     margin: -1px; overflow: hidden;
+     clip: rect(0 0 0 0);}
+:root{--main: #ff336c;
+      --main2:#ffb0c6;
+      --lightcolor: #858585;
+      --midcolor:#333333;
+      --darkcolor:#b8b8b8;
+      --samllcolor:#636363;}
+body{font-size: 18px; color:var(--lightcolor);
+     font-family: 'Noto Sans KR',"GothicA1",sans-serif;
+     line-height: 1.5;}
+
+.inner{width: 1400px; margin: 0 auto; height: 100%;}
+.top_memu{display: flex; justify-content: space-between; 
+          align-items: center;}
+#header{position: relative; z-index: 999; height: 100px;}
+#header .top{display: flex; align-items: center;justify-content: space-between;}
+#header .gnb{width: 610px; margin-left: 110px;}
+#header .gnb_list{display: flex;justify-content: space-around;}
+#header .gnb_list{display: flex; justify-content: space-around;}
+#header .gnb_list .depth1 a{display: block; padding: 40px 10px;
+                            font-size: 16px;
+                            font-weight: 700;
+                            color: var(--midcolor);}
+#header .gnb_list .depth1 .lnb_bg{background: #fff;
+                                 position: absolute; left: 0; top: 80px;
+                                 width: 100%;
+                              padding: 20px 0;}
+#header .gnb_list .depth1 .lnb{display: flex; }
+#header .gnb_list .depth1 .lnb .d2{color: var(--midcolor);
+                                   position: relative;}
+#header .gnb_list .depth1 .lnb .d3{display: flex; padding-bottom: 13px;}
+#header .gnb_list .depth1 .lnb_bg .inner{width: 1100px; margin: auto;}
+#header .until{right: 0; top: 20px;
+               display: flex;}
+#header .until a{display: block;}
+#header .serach{margin-right: 25px;
+               display: flex;
+               border-bottom: 2px solid var(--main);}
+/**/
+
+#header .gnb_list .depth1 .lnb li{padding: 0 30px;
+                                  position: relative;
+                                  overflow: hidden;}
+#header .gnb_list .depth1 .lnb>.line{position: relative;}
+#header .gnb_list .depth1 .lnb>.line::after{content: ""; display: inline-block;
+     width: 1px; height: 100px; background: #eaeaea; position:absolute;
+      right: 0; top:15px;}
+
+ #header .gnb_list .depth1 .lnb_bg{display: none;}
+#header .gnb_list .depth1 .lnb>.d2>a{line-height: 100px;
+                                   padding: 0 20px;}
+#header .gnb_list .depth1 .lnb .d3 a{display: block; font-weight: 400;
+                                   color:var(--midcolor); padding: 10px 20px;}
+
+#header .gnb_list:hover .gnb{display: none;}
+#header .gnb_list:hover .lnb{display: inline-flex;}
+#header .gnb_list .depth1:hover .lnb_bg{display: inline-flex;}
+
+#header .gnb_list .lnb li:hover a{color:var(--main)}
+#header .gnb_list .lnb .d3 li:hover a{color:var(--main)}
+
+
+
+/**/
+
+
+#footer{background: var(--midcolor); padding: 100px 0 100px;}
+#footer .fl{display: flex; justify-content: space-between;}
+#footer .footer_logo{width: 70px;}
+#footer .footer_info{width: 560px;
+                    font-size: 18px;
+                    display: flex;
+                    justify-content: space-evenly;}
+#footer .footer_info li{line-height: 1.7;}
+#footer .social .logo_white{width: 70px; height: 80px;
+                           display: flex;
+                           }
+#footer .social{width: 200px;
+                display: flex;
+                justify-content: space-between;}
+#footer .social a{width: 38px; height: 38px;}
+
